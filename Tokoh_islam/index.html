@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Al-Khawarizmi — Bapak Aljabar Dunia</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Cinzel:wght@400;600;700&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-brand">
+      <span class="arab-letter">خوارزمي</span>
+      <span class="nav-title">Al-Khawarizmi</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#biodata">Biodata</a></li>
+      <li><a href="#timeline">Timeline</a></li>
+      <li><a href="#karya">Karya</a></li>
+      <li><a href="#galeri">Galeri</a></li>
+      <li><a href="#quote">Kutipan</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <header class="hero" id="home">
+    <div class="hero-ornament top-left"></div>
+    <div class="hero-ornament top-right"></div>
+    <div class="hero-ornament bottom-left"></div>
+    <div class="hero-ornament bottom-right"></div>
+
+    <div class="arabesque-bg"></div>
+
+    <div class="hero-content">
+      <div class="bismillah">بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيم</div>
+      <div class="medallion">
+        <div class="medallion-inner">
+          <span>خوارزمي</span>
+        </div>
+      </div>
+      <h1 class="hero-name">Muhammad bin Musa<br/><span class="name-highlight">Al-Khawarizmi</span></h1>
+      <p class="hero-sub">780 M — 850 M</p>
+      <div class="hero-tagline">Bapak Aljabar & Perintis Algoritma Dunia</div>
+      <a href="#biodata" class="hero-btn">
+        <span>Jelajahi Kisahnya</span>
+        <svg viewBox="0 0 24 24" width="18" height="18"><path d="M12 5v14M5 12l7 7 7-7" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
+
+    <div class="scroll-indicator">
+      <div class="scroll-line"></div>
+    </div>
+  </header>
+
+  <!-- ===== BIODATA ===== -->
+  <section class="section biodata-section" id="biodata">
+    <div class="section-ornament"></div>
+    <div class="container">
+      <div class="section-header">
+        <div class="arabic-decor">◆ بيانات شخصية ◆</div>
+        <h2>Biodata Singkat</h2>
+        <div class="divider"><span></span><svg viewBox="0 0 24 24" width="20" height="20"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="currentColor"/></svg><span></span></div>
+      </div>
+
+      <div class="biodata-grid">
+        <div class="biodata-portrait">
+          <div class="portrait-frame">
+            <div class="portrait-inner">
+              <img src="alkhwarizmi.jpg" alt="Al-Khawarizmi" class="portrait-photo"/>
+            </div>
+            <div class="portrait-caption">Muhammad bin Musa Al-Khawarizmi</div>
+          </div>
+        </div>
+
+        <div class="biodata-info">
+          <div class="info-card" data-delay="0">
+            <div class="info-icon">☾</div>
+            <div class="info-content">
+              <label>Nama Lengkap</label>
+              <p>Abū ʿAbdallāh Muḥammad ibn Mūsā al-Khwārizmī</p>
+            </div>
+          </div>
+          <div class="info-card" data-delay="1">
+            <div class="info-icon">📅</div>
+            <div class="info-content">
+              <label>Lahir</label>
+              <p>± 780 M — Khawarizm, Uzbekistan</p>
+            </div>
+          </div>
+          <div class="info-card" data-delay="2">
+            <div class="info-icon">🌙</div>
+            <div class="info-content">
+              <label>Wafat</label>
+              <p>± 850 M — Baghdad, Irak</p>
+            </div>
+          </div>
+          <div class="info-card" data-delay="3">
+            <div class="info-icon">🕌</div>
+            <div class="info-content">
+              <label>Agama</label>
+              <p>Islam</p>
+            </div>
+          </div>
+          <div class="info-card" data-delay="4">
+            <div class="info-icon">📚</div>
+            <div class="info-content">
+              <label>Bidang Ilmu</label>
+              <p>Matematika, Astronomi, Geografi, Algoritma</p>
+            </div>
+          </div>
+          <div class="info-card" data-delay="5">
+            <div class="info-icon">🏛️</div>
+            <div class="info-content">
+              <label>Institusi</label>
+              <p>Bayt al-Hikmah (Rumah Kebijaksanaan), Baghdad</p>
+            </div>
+          </div>
+          <div class="info-card" data-delay="6">
+            <div class="info-icon">✦</div>
+            <div class="info-content">
+              <label>Gelar Kehormatan</label>
+              <p>Bapak Aljabar, Pelopor Algoritma Modern</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bio-text">
+        <p>Muhammad bin Musa Al-Khawarizmi adalah seorang ilmuwan Muslim abad ke-9 yang lahir di Khawarizm (kini wilayah Uzbekistan). Beliau merupakan salah satu intelektual terbesar dalam sejarah peradaban Islam dan dunia, yang kontribusinya dalam matematika, astronomi, dan geografi telah membentuk fondasi ilmu pengetahuan modern.</p>
+        <p>Kata <em>"Aljabar"</em> berasal dari judul karyanya <em>Al-Kitāb al-mukhtaṣar fī ḥisāb al-jabr wal-muqābalah</em>, sementara kata <em>"Algoritma"</em> sendiri berasal dari latinisasi namanya: <em>Algoritmi</em>.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== QUOTE 1 ===== -->
+  <section class="quote-banner" id="quote">
+    <div class="arabesque-divider"></div>
+    <div class="quote-content">
+      <div class="quote-arabic">اقرأ باسم ربك الذي خلق</div>
+      <blockquote>
+        <p>"Ilmu yang bermanfaat adalah cahaya yang menerangi jalan kebenaran bagi umat manusia, dari generasi ke generasi."</p>
+        <cite>— Al-Khawarizmi</cite>
+      </blockquote>
+    </div>
+    <div class="arabesque-divider flipped"></div>
+  </section>
+
+  <!-- ===== TIMELINE ===== -->
+  <section class="section timeline-section" id="timeline">
+    <div class="container">
+      <div class="section-header">
+        <div class="arabic-decor">◆ مسيرة الحياة ◆</div>
+        <h2>Perjalanan Hidup</h2>
+        <div class="divider"><span></span><svg viewBox="0 0 24 24" width="20" height="20"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="currentColor"/></svg><span></span></div>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item left" data-aos>
+          <div class="timeline-dot"><span>1</span></div>
+          <div class="timeline-card">
+            <div class="timeline-year">± 780 M</div>
+            <h3>Kelahiran di Khawarizm</h3>
+            <p>Muhammad bin Musa lahir di Khawarizm, sebuah wilayah yang kini dikenal sebagai Uzbekistan. Sejak kecil ia menunjukkan kecerdasan luar biasa dalam ilmu pasti.</p>
+          </div>
+        </div>
+        <div class="timeline-item right" data-aos>
+          <div class="timeline-dot"><span>2</span></div>
+          <div class="timeline-card">
+            <div class="timeline-year">± 800 M</div>
+            <h3>Bergabung dengan Bayt al-Hikmah</h3>
+            <p>Beliau pindah ke Baghdad dan bergabung dengan Bayt al-Hikmah (Rumah Kebijaksanaan) di bawah perlindungan Khalifah Al-Ma'mun, pusat ilmu pengetahuan terbesar di dunia saat itu.</p>
+          </div>
+        </div>
+        <div class="timeline-item left" data-aos>
+          <div class="timeline-dot"><span>3</span></div>
+          <div class="timeline-card">
+            <div class="timeline-year">± 820 M</div>
+            <h3>Lahirnya Ilmu Aljabar</h3>
+            <p>Al-Khawarizmi menyelesaikan karya monumentalnya <em>Al-Kitāb al-mukhtaṣar fī ḥisāb al-jabr wal-muqābalah</em> — kitab yang melahirkan cabang ilmu Aljabar.</p>
+          </div>
+        </div>
+        <div class="timeline-item right" data-aos>
+          <div class="timeline-dot"><span>4</span></div>
+          <div class="timeline-card">
+            <div class="timeline-year">± 825 M</div>
+            <h3>Karya Aritmetika & Sistem Desimal</h3>
+            <p>Beliau memperkenalkan sistem bilangan Hindu-Arab ke dunia Barat melalui karyanya tentang aritmetika, yang kemudian diterjemahkan ke bahasa Latin dan menjadi dasar matematika Eropa.</p>
+          </div>
+        </div>
+        <div class="timeline-item left" data-aos>
+          <div class="timeline-dot"><span>5</span></div>
+          <div class="timeline-card">
+            <div class="timeline-year">± 830 M</div>
+            <h3>Peta Dunia & Astronomi</h3>
+            <p>Al-Khawarizmi memimpin proyek pembuatan peta dunia pertama yang komprehensif, melibatkan lebih dari 70 ilmuwan, serta menyusun tabel astronomi (Zij) yang sangat akurat.</p>
+          </div>
+        </div>
+        <div class="timeline-item right" data-aos>
+          <div class="timeline-dot"><span>6</span></div>
+          <div class="timeline-card">
+            <div class="timeline-year">± 850 M</div>
+            <h3>Wafat di Baghdad</h3>
+            <p>Al-Khawarizmi wafat di Baghdad, meninggalkan warisan intelektual yang hingga kini masih dirasakan oleh seluruh umat manusia dalam bentuk matematika modern dan ilmu komputer.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== KARYA-KARYA ===== -->
+  <section class="section karya-section" id="karya">
+    <div class="container">
+      <div class="section-header">
+        <div class="arabic-decor">◆ مؤلفاته ◆</div>
+        <h2>Karya-Karya Agung</h2>
+        <div class="divider"><span></span><svg viewBox="0 0 24 24" width="20" height="20"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="currentColor"/></svg><span></span></div>
+      </div>
+
+      <div class="karya-grid">
+        <div class="karya-card" data-aos>
+          <div class="karya-icon">
+            <svg viewBox="0 0 60 60" width="48" height="48">
+              <text y="42" font-size="40" fill="currentColor">𝑥</text>
+            </svg>
+          </div>
+          <div class="karya-number">كتاب الجبر</div>
+          <h3>Al-Kitab al-Mukhtasar fi Hisab al-Jabr wal-Muqabala</h3>
+          <p>Kitab terpenting dalam sejarah matematika yang melahirkan ilmu <strong>Aljabar</strong>. Ditulis sekitar 820 M, karya ini membahas solusi persamaan linear dan kuadrat secara sistematis.</p>
+          <div class="karya-tag">Matematika — ± 820 M</div>
+        </div>
+
+        <div class="karya-card" data-aos>
+          <div class="karya-icon">
+            <svg viewBox="0 0 60 60" width="48" height="48">
+              <text y="42" font-size="40" fill="currentColor">١٢٣</text>
+            </svg>
+          </div>
+          <div class="karya-number">كتاب الحساب</div>
+          <h3>Kitab al-Jam' wa'l-Tafriq bi'l-Hisab al-Hindi</h3>
+          <p>Karya yang memperkenalkan <strong>sistem bilangan Hindu-Arab</strong> (angka 0-9) ke dunia Barat. Terjemahan Latinnya menjadi buku teks matematika utama di Eropa selama berabad-abad.</p>
+          <div class="karya-tag">Aritmetika — ± 825 M</div>
+        </div>
+
+        <div class="karya-card" data-aos>
+          <div class="karya-icon">
+            <svg viewBox="0 0 60 60" width="48" height="48">
+              <circle cx="30" cy="30" r="22" fill="none" stroke="currentColor" stroke-width="2"/>
+              <path d="M30 8 L30 52 M8 30 L52 30" stroke="currentColor" stroke-width="1.5"/>
+              <circle cx="30" cy="30" r="4" fill="currentColor"/>
+            </svg>
+          </div>
+          <div class="karya-number">صورة الأرض</div>
+          <h3>Kitab Surat al-Ard (Gambaran Bumi)</h3>
+          <p>Proyek ambisius pembuatan <strong>peta dunia</strong> komprehensif pertama yang melibatkan 70 ilmuwan. Memperbaiki koordinat geografis dan mencakup seluruh dunia yang dikenal saat itu.</p>
+          <div class="karya-tag">Geografi — ± 830 M</div>
+        </div>
+
+        <div class="karya-card" data-aos>
+          <div class="karya-icon">
+            <svg viewBox="0 0 60 60" width="48" height="48">
+              <path d="M10 50 Q20 10 30 30 Q40 50 50 10" fill="none" stroke="currentColor" stroke-width="2"/>
+              <circle cx="30" cy="15" r="8" fill="none" stroke="currentColor" stroke-width="2"/>
+              <line x1="30" y1="5" x2="30" y2="15" stroke="currentColor" stroke-width="2"/>
+            </svg>
+          </div>
+          <div class="karya-number">الزيج</div>
+          <h3>Zij Al-Sindhind (Tabel Astronomi)</h3>
+          <p>Tabel astronomi yang sangat akurat mencakup posisi <strong>matahari, bulan, dan planet</strong>, tabel trigonometri, serta perhitungan kalender Islam. Menjadi referensi utama astronomi abad pertengahan.</p>
+          <div class="karya-tag">Astronomi — ± 820 M</div>
+        </div>
+
+        <div class="karya-card" data-aos>
+          <div class="karya-icon">
+            <svg viewBox="0 0 60 60" width="48" height="48">
+              <rect x="10" y="12" width="35" height="40" rx="3" fill="none" stroke="currentColor" stroke-width="2"/>
+              <line x1="18" y1="24" x2="37" y2="24" stroke="currentColor" stroke-width="1.5"/>
+              <line x1="18" y1="31" x2="37" y2="31" stroke="currentColor" stroke-width="1.5"/>
+              <line x1="18" y1="38" x2="30" y2="38" stroke="currentColor" stroke-width="1.5"/>
+            </svg>
+          </div>
+          <div class="karya-number">الوصايا</div>
+          <h3>Kitab al-Wasaya (Hukum Waris Islam)</h3>
+          <p>Karya yang menerapkan matematika pada <strong>hukum waris Islam</strong>, memberikan solusi sistematis untuk perhitungan pembagian harta warisan sesuai syariat Islam.</p>
+          <div class="karya-tag">Hukum Islam — ± 830 M</div>
+        </div>
+
+        <div class="karya-card" data-aos>
+          <div class="karya-icon">
+            <svg viewBox="0 0 60 60" width="48" height="48">
+              <polygon points="30,5 55,20 55,45 30,55 5,45 5,20" fill="none" stroke="currentColor" stroke-width="2"/>
+              <circle cx="30" cy="30" r="10" fill="none" stroke="currentColor" stroke-width="2"/>
+              <circle cx="30" cy="30" r="3" fill="currentColor"/>
+            </svg>
+          </div>
+          <div class="karya-number">المثلثات</div>
+          <h3>Karya Trigonometri & Sundial</h3>
+          <p>Al-Khawarizmi juga berkontribusi pada pengembangan <strong>trigonometri</strong> dan pembuatan jam matahari (sundial), serta menjelaskan fungsi sinus, kosinus, dan tangen secara lebih lengkap.</p>
+          <div class="karya-tag">Trigonometri — ± 840 M</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GALERI ===== -->
+  <section class="section galeri-section" id="galeri">
+    <div class="container">
+      <div class="section-header">
+        <div class="arabic-decor">◆ معرض الصور ◆</div>
+        <h2>Galeri Ilustrasi</h2>
+        <div class="divider"><span></span><svg viewBox="0 0 24 24" width="20" height="20"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="currentColor"/></svg><span></span></div>
+      </div>
+
+      <div class="galeri-grid" id="galeriGrid">
+        <div class="galeri-item" data-index="0" data-title="Bayt al-Hikmah — Rumah Kebijaksanaan">
+          <img src="bayt.jpg" alt="Bayt al-Hikmah" class="galeri-img-real"/>
+          <div class="galeri-overlay">
+            <span>Bayt al-Hikmah</span>
+            <p>Pusat ilmu pengetahuan Baghdad</p>
+          </div>
+        </div>
+        <div class="galeri-item" data-index="1" data-title="Manuskrip Aljabar — Karya Asli Al-Khawarizmi">
+          <img src="aljabar.jpg" alt="Manuskrip Aljabar" class="galeri-img-real"/>
+          <div class="galeri-overlay">
+            <span>Manuskrip Aljabar</span>
+            <p>Kitab yang melahirkan matematika modern</p>
+          </div>
+        </div>
+        <div class="galeri-item" data-index="2" data-title="Peta Dunia Al-Khawarizmi">
+          <img src="petadunia.jpg" alt="Peta Dunia" class="galeri-img-real"/>
+          <div class="galeri-overlay">
+            <span>Peta Dunia</span>
+            <p>Surat al-Ard — Gambaran Bumi</p>
+          </div>
+        </div>
+        <div class="galeri-item" data-index="3" data-title="Observatorium Baghdad — Penelitian Astronomi">
+          <img src="observatorium.jpeg" alt="Observatorium" class="galeri-img-real"/>
+          <div class="galeri-overlay">
+            <span>Observatorium Baghdad</span>
+            <p>Tempat penelitian bintang dan planet</p>
+          </div>
+        </div>
+        <div class="galeri-item" data-index="4" data-title="Angka Arab & Sistem Desimal">
+          <img src="angkaarab.jpg" alt="Angka Arab" class="galeri-img-real"/>
+          <div class="galeri-overlay">
+            <span>Sistem Angka Arab</span>
+            <p>Revolusi matematika dunia</p>
+          </div>
+        </div>
+        <div class="galeri-item" data-index="5" data-title="Kota Baghdad pada Masa Keemasan Islam">
+          <img src="baghdad.jpg" alt="Baghdad" class="galeri-img-real"/>
+          <div class="galeri-overlay">
+            <span>Baghdad — Kota Keemasan</span>
+            <p>Pusat peradaban dunia abad ke-9</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightboxClose">&times;</button>
+    <button class="lightbox-nav prev" id="lightboxPrev">&#8249;</button>
+    <div class="lightbox-content">
+      <div class="lightbox-img" id="lightboxImg"></div>
+      <div class="lightbox-caption" id="lightboxCaption"></div>
+    </div>
+    <button class="lightbox-nav next" id="lightboxNext">&#8250;</button>
+  </div>
+
+  <!-- ===== QUOTES CAROUSEL ===== -->
+  <section class="quotes-section" id="quote">
+    <div class="container">
+      <div class="section-header light">
+        <div class="arabic-decor">◆ أقوال مأثورة ◆</div>
+        <h2>Kutipan Inspiratif</h2>
+        <div class="divider light"><span></span><svg viewBox="0 0 24 24" width="20" height="20"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="currentColor"/></svg><span></span></div>
+      </div>
+
+      <div class="quotes-carousel">
+        <div class="quote-slide active" data-quote="0">
+          <div class="quote-mark">"</div>
+          <p>"Apa yang mudah dimengerti sesungguhnya merupakan hasil dari kerja keras yang panjang. Kesederhanaan adalah puncak dari kerumitan."</p>
+          <cite>— Al-Khawarizmi, tentang ilmu pengetahuan</cite>
+        </div>
+        <div class="quote-slide" data-quote="1">
+          <div class="quote-mark">"</div>
+          <p>"Saya telah menyusun sebuah karya pendek tentang perhitungan aljabar dan al-muqabala, dengan harapan dapat memudahkan perhitungan yang paling sering dibutuhkan manusia."</p>
+          <cite>— Mukadimah Kitab Al-Jabr</cite>
+        </div>
+        <div class="quote-slide" data-quote="2">
+          <div class="quote-mark">"</div>
+          <p>"Pengetahuan adalah cahaya yang membimbing manusia keluar dari kegelapan kebodohan. Barang siapa yang menuntut ilmu, sesungguhnya ia telah menghidupkan dirinya."</p>
+          <cite>— Falsafah Keilmuan Al-Khawarizmi</cite>
+        </div>
+        <div class="quote-slide" data-quote="3">
+          <div class="quote-mark">"</div>
+          <p>"Angka nol bukan berarti ketiadaan, melainkan sebuah kemungkinan yang tak terbatas — fondasi dari semua perhitungan yang ada."</p>
+          <cite>— Al-Khawarizmi tentang angka nol</cite>
+        </div>
+
+        <div class="quote-dots">
+          <button class="dot active" data-dot="0"></button>
+          <button class="dot" data-dot="1"></button>
+          <button class="dot" data-dot="2"></button>
+          <button class="dot" data-dot="3"></button>
+        </div>
+
+        <div class="quote-controls">
+          <button class="quote-btn" id="quotePrev">&#8249;</button>
+          <button class="quote-btn" id="quoteNext">&#8250;</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WARISAN & PENGARUH ===== -->
+  <section class="section warisan-section">
+    <div class="container">
+      <div class="section-header">
+        <div class="arabic-decor">◆ الإرث العلمي ◆</div>
+        <h2>Warisan untuk Dunia</h2>
+        <div class="divider"><span></span><svg viewBox="0 0 24 24" width="20" height="20"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="currentColor"/></svg><span></span></div>
+      </div>
+
+      <div class="warisan-grid">
+        <div class="warisan-item" data-aos>
+          <div class="warisan-number" data-count="1200">0</div>
+          <div class="warisan-label">+ Tahun Warisan Ilmu</div>
+        </div>
+        <div class="warisan-item" data-aos>
+          <div class="warisan-number" data-count="12">0</div>
+          <div class="warisan-label">Karya Ilmiah Utama</div>
+        </div>
+        <div class="warisan-item" data-aos>
+          <div class="warisan-number" data-count="7">0</div>
+          <div class="warisan-label">Bidang Ilmu yang Dipengaruhi</div>
+        </div>
+        <div class="warisan-item" data-aos>
+          <div class="warisan-number" data-count="8">0</div>
+          <div class="warisan-label">Miliar Orang Menggunakan Warisannya</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-ornament"></div>
+    <div class="footer-content">
+      <div class="footer-arabic">بِسْمِ اللَّهِ</div>
+      <div class="footer-title">Al-Khawarizmi</div>
+      <p class="footer-sub">780 M — 850 M | Bapak Aljabar & Perintis Algoritma</p>
+      <div class="footer-divider"><span></span><span>✦</span><span></span></div>
+      <p class="footer-credit">Dibuat oleh Muhammad Hatta</p>
+      <p class="footer-note">رحمه الله — Semoga Allah merahmatinya</p>
+    </div>
+    <div class="footer-ornament bottom"></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
